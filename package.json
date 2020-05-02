@@ -4,7 +4,7 @@
   "description": "Automatic watching the twitch to get valorant drop",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app --unhandled-rejections=strict"
   },
   "author": "D3v <info@zsmark.dev>",
   "license": "MIT",
